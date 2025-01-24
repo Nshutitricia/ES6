@@ -4,7 +4,7 @@ class Book{
         this.author = author;
         this.year = year;
     }
-    getsummary(){
+    getSummary(){
         return `${this.title} was written by ${this.author} in ${this.year}`  
     }
     getAge(){
@@ -24,5 +24,5 @@ class Book{
 const book1 = new Book('Book One', 'Tricia', '2020')
 console.log(book1)
 book1.revise('2023')
-console.log(book1)
+console.log(book1.getSummary())
 console.log(Book.topBook())
