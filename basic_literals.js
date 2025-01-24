@@ -7,3 +7,5 @@ const book = {
     }
 };
 console.log(book.getSummary())
+console.log(Object.values(book))
+console.log(Object.keys(book))
